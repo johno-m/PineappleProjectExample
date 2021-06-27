@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pineapple Project</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <section class="hero">
+            <div class="col-left">
+                <div class="inner">
+                    <header class="top-bar">
+                        <div class="logo">
+                            <img class="logo-small" src="images/logo_small.svg" alt="pineapple with sunglasses and earphones">
+                            <img class="logo-large" src="images/logo_big.svg" alt="pineapple with sunglasses and earphones">
+                        </div>
+                        <nav>
+                            <a href="#"><button class="menu-btn">About</button></a>
+                            <a href="#"><button class="menu-btn">How it works</button></a>
+                            <a href="#"><button class="menu-btn">Contact</button></a>
+                        </nav>
+                    </header>
+                    <div class="content">
+                        <div class="indent">
+                            <h1 class="heading">Subscribe to newsletter</h1>
+                            <p class="subheading">Subscribe to our newsletter and get 10% discount on pineapple glasses.</p>
+                        </div>
+                            
+                        <form class="input" action="/action_page.php">
+                            <input type="email" id="email" name="email" placeholder="Type your email address here...">
+                            <img src="images/arrow.svg" class="arrow-icon">
+                        </form>
+                        
+                        <div class="tos">
+                            <img src="images/checkmark.svg" class="checkmark">
+                            <span class="tos-text">I agree to <a href="#">terms of service</span>
+                        </div>
+                            
+                        <div class="line">
+                            <picture>
+                                <source media="(max-width: 1023px)" srcset="images/line_small.svg"> 
+                                <source media="(min-width: 1024px)" srcset="images/line_big.svg"> 
+                                <img src="line_big.svg">
+                            </picture>  
+                        </div>
+                            
+                        <div class="social-media">
+                            <ul>
+                                <li><a href="#"><span class="facebook-icon"></span></a></li>
+                                <li><a href="#"><span class="instagram-icon"></span></a></li>
+                                <li><a href="#"><span class="twitter-icon"></span></a></li>
+                                <li><a href="#"><span class="youtube-icon"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="spacer"></div>
+                </div>
+                
+            </div>
+            
+            <div class="col-right"></div> 
+            
+        </section>
+        <script>src="app.js"</script>
+    </body>
+</html>
